@@ -26,10 +26,10 @@ The model was fine-tuned on a custom dataset containing:
 - **Framework**: TRL (Transformers Reinforcement Learning) library.
 - **Trainer**: SFTTrainer for supervised fine-tuning.
 - **Key Hyperparameters**:
-  - Learning Rate: 2e-5
+  - Learning Rate: 2e-6
   - Gradient Accumulation Steps: 4
   - Warmup Steps: 5
-  - Epochs: 2
+  - Epochs: 3
   - Scheduler: Cosine decay.
 - **Optimization**: AdamW (8-bit) for memory efficiency.
 - **Hardware**: Kaggle environment with multi-GPU support.
