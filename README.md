@@ -1,10 +1,10 @@
-# Gemma2 7B Fine-Tuned for English-Marathi Translation
+# Gemma2 9B Fine-Tuned for English-Marathi Translation
 
 ## Overview
 This project fine-tunes Unsloth's Gemma2 7B model for high-quality English-to-Marathi translations. Leveraging Gemma2's robust architecture, the model was trained on a custom dataset to handle diverse linguistic challenges, including long-context paragraphs, idiomatic expressions, and noisy inputs.
 
 ## Model Features
-- **Base Model:** Gemma2 7B
+- **Base Model:** Gemma2 9B
 - **Architecture:** 42 transformer layers, optimized for multilingual tasks.
 - **Precision:** 4-bit quantization (BitsAndBytes) for efficient fine-tuning and inference.
 - **Token Support:** Up to 8,192 tokens with a vocabulary of 256,000 tokens.
@@ -16,7 +16,7 @@ The model was fine-tuned on a custom dataset available on Hugging Face:
 - **Dataset:** [English-Marathi Complex Sentences](https://huggingface.co/datasets/Devavrat28/English-Marathi_Complex_Sentences)
 - **Size:** ~X English-Marathi sentence pairs.
 - **Domains:**
-  - Historical narratives (e.g., Peshwa-era texts)
+  - Historical narratives
   - Conversational phrases
   - Literary excerpts and idiomatic expressions
 - **Challenges Addressed:**
